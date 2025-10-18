@@ -44,3 +44,25 @@ Luego inicializamos el proyecto:
 ```bash
 npm run start
 ```
+
+## Intrucciones generales
+### Estructura del proyecto
+
+```
+/mi-proyecto
+├── app.js               # Configuración   principal del servidor
+├── /models              # Modelos de datos (MongoDB)
+│   └── Order.js
+├── /routes              # Rutas de la API
+│   └── orders.js
+├── /config              # Configuración de la base de datos
+│   └── db.js
+└── package.json         # Dependencias y configuración del proyecto
+|
+└── vercel.json       
+```
+> NOTA: vercel.json es la configuración del deploy
+
+
+## Link de Vercel
+https://gestion-ordenes.vercel.app/
